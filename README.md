@@ -30,10 +30,15 @@ Lastly we use scala to find the trendline and visualize it with csv.
 In order of rerunning our project, you should follow the instructions:
 
 1: download sourse file from website above/or you can see them already downloaded in directory data_ingest/source_data
+
 2:cleaning the soursefile via mapreduce, the crime cvs should be shrunk down to the first 1000 line only.(check etl directory)
+
 3:using mapreduce to do the proflinging counting the length of files before and after cleaning.(check profile code directory)
+
 4:using scala to do the first analytical, to get bike/bus sortbylatitude.cvs (check ana_code/firstana directory)
+
 5:using scala to do the second anayltical, to get bike/bus crimeratio.cvs(check ana_code/secondana directory)
+
 6:using scala to do the second analytical, to get trendline for bus/bike denstity as x asis and crime amounts as y axis(check ana_code/secondana directory)
 
 
